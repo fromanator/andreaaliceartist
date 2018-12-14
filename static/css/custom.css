@@ -6,6 +6,11 @@
 	color: #fff;
 }
 
+section h3.section-subheading.text-muted {
+      color: #333;
+
+}
+
 section h3.section-subheading {
 	color: #fff;
 }
