@@ -87,10 +87,9 @@ googleAnalytics = ""
     subtitle = "Lorem ipsum dolor sit amet consectetur."
 
     [params.portfolio.modal]
-      client = "Client"
       date = "Date"
       category = "Category"
-      buttonText = "Close project"
+      buttonText = "Close"
 
   # Team section
   [params.team]
