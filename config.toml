@@ -120,6 +120,7 @@ googleAnalytics = ""
   [params.contact]
     enable = true
     title = "Contact me"
+    subtitle= "Ask questions, request commissions, or just say hello!"
     buttonText = "Send message"
     netlify = true
 
@@ -192,13 +193,13 @@ googleAnalytics = ""
       link = "//www.etsy.com/shop/andreaaliceartist"
       title = "Etsy"
 
-    [[params.footer.quicklinks]]
-      text = "Privacy Policy"
-      link = "#"
+    #[[params.footer.quicklinks]]
+    #  text = "Privacy Policy"
+    #  link = "#"
 
-    [[params.footer.quicklinks]]
-      text = "Terms of Use"
-      link = "#"
+    #[[params.footer.quicklinks]]
+    #  text = "Terms of Use"
+    #  link = "#"
 
 [privacy]
   [privacy.disqus]

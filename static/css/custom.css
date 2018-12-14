@@ -6,9 +6,36 @@
 	color: #fff;
 }
 
+section h3.section-subheading {
+	color: #fff;
+}
+
+.navbar-default {
+    	background-color: #f10ba0;
+}
+
+@media(min-width:768px) {
+	.navbar-default {
+    	background-color: transparent;
+	}
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #11138a;
+    background-color: #11138a;
+}
+
+.navbar-default.navbar-shrink {
+ background-color: #f10ba0;
+}
+
+section#contact {
+	background-color: #11138a;
+	background-image: none;
+}
 
 .navbar-default .nav li.menu-social {
-	padding: 0px 10px 0px 10px;
+	padding: 10px 10px 10px 10px;
 }
 
 .navbar-default .nav li.menu-social a {

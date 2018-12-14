@@ -11,7 +11,7 @@
         {{ end }}
 
         {{ with $contact.subtitle }}
-        <h3 class="section-subheading text-muted">{{ . | markdownify }}</h3>
+        <h3 class="section-subheading">{{ . | markdownify }}</h3>
         {{ end }}
 
       </div>
@@ -73,13 +73,13 @@
                   {{ end }}
                 </div>
                 <div class="captcha-error text-danger" id="captcha-error">
-                  Message is not sendable due to captcha not loadable. Please contact us at {{ (or $contact.email .Site.Params.email) -}}.
+                  Message is not sendable due to captcha not loadable. Please contact me at {{ (or $contact.email .Site.Params.email) -}}.
                 </div>
                 <div class="text-danger" id="error" style="display:none;">
                   {{ with $contact.error }}
                     {{ . | markdownify }}
                   {{ else }}
-                    Message could not be send. Please contact us at {{ (or $contact.email .Site.Params.email) }} instead.
+                    Message could not be send. Please contact me at {{ (or $contact.email .Site.Params.email) }} instead.
                   {{ end }}
                 </div><br />
                 {{ with $contact.captcha }}
