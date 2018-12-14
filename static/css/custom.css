@@ -3,6 +3,30 @@
     margin-right: auto;
 }
 
+.btn-xl.disabled,
+.btn-xl[disabled],
+fieldset[disabled] .btn-xl,
+.btn-xl.disabled:hover,
+.btn-xl[disabled]:hover,
+fieldset[disabled] .btn-xl:hover,
+.btn-xl.disabled:focus,
+.btn-xl[disabled]:focus,
+fieldset[disabled] .btn-xl:focus,
+.btn-xl.disabled:active,
+.btn-xl[disabled]:active,
+fieldset[disabled] .btn-xl:active,
+.btn-xl.disabled.active,
+.btn-xl[disabled].active,
+fieldset[disabled] .btn-xl.active {
+    border-color: #ff00a4;
+    background-color: #ff00a4;
+}
+
+.btn-xl {
+    border-color: #ff00a4;
+    background-color: #ff00a4;
+ }
+
 .navbar-default .nav li a {
 	font-weight: bold;
 }
@@ -71,6 +95,36 @@ a:hover, a:focus {
     color: #f10ba0;
 }
 
+.btn-primary {
+    border-color: #f10ba0;
+    background-color: #f10ba0;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    border-color: #f10ba0;
+    color: #fff;
+    background-color: #f10ba0;
+}
+
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    border-color: #f10ba0;
+    color: #fff;
+    background-color: #f10ba0;
+}
+
+body {
+    webkit-tap-highlight-color: #ff00a4;
+}
+
+
 ::selection {
-    background: #f10ba0;
+    background: #ff00a4;
 }
