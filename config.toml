@@ -22,7 +22,7 @@ googleAnalytics = ""
   email = "me@andreaaliceartist.com"
 
   # Link custom assets relative to /static
-  custom_css = []
+  custom_css = ["css/custom.css"]
   custom_js  = []
   favicon    = "favicon.ico"
 
@@ -53,22 +53,20 @@ googleAnalytics = ""
     team = "Me"
     contact = "Contact"
 
-    # Add custom links. Those can be pre- and postpended to the default menu above.
-    # Use the weight attribute to order your custom links. Uncomment the example
-    # below and replace the values with your own.
+    [[menu.social]]
+      name = "fa-instagram"
+      identifier = "Instagram"
+      url = "https://www.instagram.com/andreaaliceartist/"
 
-    # prepended links
-    #[[menu.prepend]]
-    #  url = "http://gohugo.io"
-    #  name = "Hugo"
-    #  weight = 10
+    [[menu.social]]
+      name = "fa-facebook"
+      identifier = "Facebook"
+      url = "https://www.facebook.com/AndreaAliceArtist/"
 
-    # postpended links
-    [[menu.postpend]]
+    [[menu.social]]
+      name = "fa-etsy"
+      identifier = "Etsy"
       url = "https://www.etsy.com/shop/andreaaliceartist"
-      name = "Etsy Store"
-      weight = 10
-
 
   # Hero section
   [params.hero]
@@ -109,7 +107,7 @@ googleAnalytics = ""
       img = "andrea_avatar.jpg"
       name = "Andrea Alice"
       position = "Artist"
-      livesIn = "[Minneapolis, Minnesota](#some-maps-url)"
+      livesIn = "Minneapolis, Minnesota"
       # For bio markdown and even multiline strings are available.
       bio = """Awesome artist and more about me here!"""
       social = [
@@ -177,7 +175,7 @@ googleAnalytics = ""
   # Footer section
   [params.footer]
     enable = true
-    copyright = "Published under the Apache License 2.0."
+    copyright = "&#169; 2018 Andrea From"
 
     [[params.footer.social]]
       icon = "fa-instagram"
@@ -201,3 +199,23 @@ googleAnalytics = ""
     [[params.footer.quicklinks]]
       text = "Terms of Use"
       link = "#"
+
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = false
+    respectDoNotTrack = true
+    useSessionStorage = true
+  [privacy.instagram]
+    disable = false
+    simple = true
+  [privacy.twitter]
+    disable = false
+    enableDNT = true
+    simple = true
+  [privacy.vimeo]
+    disable = true
+  [privacy.youtube]
+    disable = true

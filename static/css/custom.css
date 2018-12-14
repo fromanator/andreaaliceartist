@@ -1,0 +1,27 @@
+.navbar-default .nav li a {
+	font-weight: bold;
+}
+
+.navbar-default .navbar-brand {
+	color: #fff;
+}
+
+
+.navbar-default .nav li.menu-social {
+	padding: 0px 10px 0px 10px;
+}
+
+.navbar-default .nav li.menu-social a {
+	padding-top: 10px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size: inherit;
+    outline: 0;
+    color: #222;
+    background-color: #fff;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
