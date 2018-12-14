@@ -16,10 +16,8 @@
               <p class="item-intro text-muted">{{ .subtitle | markdownify }}</p>
               {{ $url := printf "img/portfolio/%s" .img }}
               <img class="img-responsive img-centered" src="{{ $url | absURL }}" alt="">
+              <p class="item-intro text-muted">&#169; {{ .date }} Andrea From. All Rights Reserved.</p>
               <p>{{ .description | markdownify }}</p>
-              <ul class="list-inline">
-                <li>{{ with $.Site.Params.portfolio.modal.date }}{{ . }}{{ end }}: {{ .date }}</li>
-              </ul>
               <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> {{ with $.Site.Params.portfolio.modal.buttonText }}{{ . }}{{ end }}</button>
             </div>
           </div>
