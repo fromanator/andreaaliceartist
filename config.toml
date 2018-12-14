@@ -98,7 +98,7 @@ googleAnalytics = ""
     # Possibility to center items
     center = true
     title = "Me"
-    subtitle = "subtitle info here"
+    subtitle = "Minneapolis-based artist and illustrator selling whimsical prints and greeting cards"
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
@@ -108,8 +108,6 @@ googleAnalytics = ""
       name = "Andrea Alice"
       position = "Artist"
       livesIn = "Minneapolis, Minnesota"
-      # For bio markdown and even multiline strings are available.
-      bio = """Awesome artist and more about me here!"""
       social = [
         ["fa-instagram", "//www.instagram.com/andreaaliceartist/"],
         ["fa-facebook", "//www.facebook.com/AndreaAliceArtist/"],
